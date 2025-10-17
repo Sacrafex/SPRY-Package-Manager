@@ -1,0 +1,50 @@
+{
+  "mirrors": [
+    {
+      "url": "http://example.com/mirror1",
+      "packages": {
+        "package1": {
+          "version": "1.0.0",
+          "signed_by": "Killian Zabinsky",
+          "name": "Example Package 1",
+          "description": "This is an example package for demonstration purposes."
+        },
+        "package2": {
+          "version": "2.3.4",
+          "signed_by": "Killian Zabinsky",
+          "name": "Example Package 2",
+          "description": "Another example package with more features."
+        }
+      },
+      "signing_details": {
+        "key": "example-key",
+        "algorithm": "RSA"
+      }
+    },
+    {
+      "url": "http://example.com/mirror2",
+      "packages": {
+        "package3": {
+          "version": "1.1.0",
+          "signed_by": "Alice Johnson",
+          "name": "Example Package 3",
+          "description": "A lightweight package for specific tasks."
+        },
+        "package4": {
+          "version": "3.0.0",
+          "signed_by": "Bob Brown",
+          "name": "Example Package 4",
+          "description": "A comprehensive package with advanced features."
+        }
+      },
+      "signing_details": {
+        "key": "example-key-2",
+        "algorithm": "ECDSA"
+      }
+    }
+  ],
+  "instructions": {
+    "port_forwarding": "To enable port forwarding, configure your router to forward the desired port to your local machine's IP address. Refer to your router's manual for specific instructions.",
+    "mirrors_json": "The mirrors.json file is not a mirror itself. It can be downloaded from https://raw.githubusercontent.com/Sacrafex/SPRY/main/mirrors.json (SUBJECT TO CHANGE!). Ensure it is updated periodically."
+  }
+}
