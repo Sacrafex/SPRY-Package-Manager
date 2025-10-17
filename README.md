@@ -48,7 +48,7 @@ Ensure your server meets the minimum or recommended requirements listed above.
 
 ### 2. Install Required Software
 
-Install basic tools to serve files and manage mirrors:
+Help support SPRY by hosting a mirror. SacrOS is recommended for the best experience, but it’s not required:
 
 ```bash
 sudo spry install spry-host
