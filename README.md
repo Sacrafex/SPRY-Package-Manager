@@ -20,7 +20,7 @@ SPRY Package Manager is a secure, distributed package manager for Debian-based L
 Run the following command to bootstrap SPRY (SPRY is preinstalled on all SacrOS Systems):
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/Sacrafex/SPRY/main/install.sh | sh
+curl -sSL https://raw.githubusercontent.com/Sacrafex/SPRY-Package-Manager/refs/heads/main/install.sh | sh
 
 ```
 ## Hosting a SPRY Mirror
