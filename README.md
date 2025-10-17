@@ -21,7 +21,7 @@ Run the following command to bootstrap SPRY:
 
 ### URL TO BE DETERMINED (WILL NOT WORK)
 ```bash
-curl -sSL https://spry.Sacrafex.com/install.sh | sh
+curl -sSL https://raw.githubusercontent.com/Sacrafex/SPRY/main/install.sh | sh
 
 ```
 ## Hosting a SPRY Mirror
