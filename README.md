@@ -17,9 +17,8 @@ SPRY Package Manager is a secure, distributed package manager for Debian-based L
 
 ## Installation
 
-Run the following command to bootstrap SPRY:
+Run the following command to bootstrap SPRY (SPRY is preinstalled on all SacrOS Systems):
 
-### URL TO BE DETERMINED (WILL NOT WORK)
 ```bash
 curl -sSL https://raw.githubusercontent.com/Sacrafex/SPRY/main/install.sh | sh
 
@@ -42,10 +41,6 @@ Running a SPRY mirror allows users to download packages faster and ensures high 
 - **Memory:** 8 GB RAM or more  
 - **Storage:** 500 GB or more available disk space  
 - **Additional:** SSD storage for faster read/write operations and reduced latency  
-
----
-
-## Setting Up a SPRY Mirror
 
 ### 1. Prepare Your Server
 
